@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Roboto:ital,wght@0,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">AQUA <span>MEGAMI</span></a>
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Produck</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#home" id="search-button"><i data-feather="search"></i></a>
+            <a href="#home" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+            <a href="#home" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search Form Start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Cari DiSini...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form End -->
+
+        <!-- Shopping card Start -->
+
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaRsxY5njm1ThtVO2dNpskopoW_Co7blj3mJMVxUyK_FcoihCKYGwO-G7yxtPCCnnpXoL7mCjUvMFMqFQIfFPgS1_5udC7rR1tMW2Haa0jL_MJkdYErSJv6d761gl3skTo5JOBVgbMiIiIukewYTjARMBUOq9xX99xfRuTPVtOR_1CS6-0EyWyBw3MgLA/s843/anime1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Produk 1</h3>
+                    <div class="item-price">IDR 500K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaRsxY5njm1ThtVO2dNpskopoW_Co7blj3mJMVxUyK_FcoihCKYGwO-G7yxtPCCnnpXoL7mCjUvMFMqFQIfFPgS1_5udC7rR1tMW2Haa0jL_MJkdYErSJv6d761gl3skTo5JOBVgbMiIiIukewYTjARMBUOq9xX99xfRuTPVtOR_1CS6-0EyWyBw3MgLA/s843/anime1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Product 2</h3>
+                    <div class="item-price">IDR 500K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaRsxY5njm1ThtVO2dNpskopoW_Co7blj3mJMVxUyK_FcoihCKYGwO-G7yxtPCCnnpXoL7mCjUvMFMqFQIfFPgS1_5udC7rR1tMW2Haa0jL_MJkdYErSJv6d761gl3skTo5JOBVgbMiIiIukewYTjARMBUOq9xX99xfRuTPVtOR_1CS6-0EyWyBw3MgLA/s843/anime1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Product 3</h3>
+                    <div class="item-price">IDK 500K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+
+        </div>
+
+        
+        <!-- Shopping card End -->
+    </nav>
+
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>AQUA <span>MEGAMI</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptatibus provident sapiente enim
+                dolores doloribus ipsa? Quasi tempore distinctio et doloribus, dolor quibusdam commodi est! Doloribus
+                eligendi praesentium alias quaerat?</p>
+            
+        </main>
+    </section>
+
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="content">
+                <h3>kenapa memilih Figure dari Kami ?</h3>
+                <p>Karna kami memiliki berbagai macam Figur Anime sampai Figur Donghua yang bervariasi, kami menggunakan
+                    bahan yang premium dan berkualitas sehingga figur yang kami sediakan selalu terlihat menarik dan
+                    tentu saja kualitas terjamin.</p>
+            </div>
+            <div class="about-img">
+                <div class="slider">
+                    <div class="slider-img">
+                        <div id="slider-img-1"></div>
+                        <div id="slider-img-2"></div>
+                        <div id="slider-img-3"></div>
+                        <div id="slider-img-4"></div>
+                    </div>
+                </div>
+        
+                <div class="button-holder">
+                    <a href="#slider-img-1" class="button"></a>
+                    <a href="#slider-img-2" class="button"></a>
+                    <a href="#slider-img-3" class="button"></a>
+                    <a href="#slider-img-4" class="button"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="menu" class="menu">
+        <h2><span>Produk</span> Kami</h2>
+        <p>Kami menjual berbagai macam figur yang kawaii dan keren V: </p>
+        <div class="row">
+            <div class="container">
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaRsxY5njm1ThtVO2dNpskopoW_Co7blj3mJMVxUyK_FcoihCKYGwO-G7yxtPCCnnpXoL7mCjUvMFMqFQIfFPgS1_5udC7rR1tMW2Haa0jL_MJkdYErSJv6d761gl3skTo5JOBVgbMiIiIukewYTjARMBUOq9xX99xfRuTPVtOR_1CS6-0EyWyBw3MgLA/s843/anime1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href="#"><i class="fas fas fa-heart"></i></a>
+                                    <span>Tambah Ke Pavorit</span>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 750.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioomuIefEXUix0GAqxRVDX9bt3_skkSS0r1NnHHVhogVoHO8iMl485hk5tm90MffDWcNSsmSu3EFw8EwoBoK_zD00UAOyuFT1UrGTS1bdnJKbV7G-F2BmPsda16LyqLyA1pji1pVynSE16hgpcqNfQ6TTWevNqfa35aJyqx39c3SjLzzfiENkHUZU1P5g/s981/anime2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Figure hatsune miku</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 200.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star gray"></i>
+                            </div>
+                            <p class="rating-text">4/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_xM6qwEIdMN_DeGR1bvpHbjoBS71SSCYBKdBo9w_s8lXOjHbqJyXsE3NLUrheiCBgDLVIjoE1fg1Bo3aguSatzZI0ozTYdwEQfYhvuBdtTb9Jb2GKjnY3HxgyUCR2SkP81HQ7XAFyXFpVgLfzIrjmPZhWsxQ7VYuTGO7ObzNIpdSZPvw8F_T0AFJTxjQ/s1050/anime3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Figure Rin Kagamine</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 550.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFzCav7bb8ewSPmEISSP5Rh3C_QSZ7HZaG1h0n3sYuE937q9IQxj4xdZ3DmMkQECAZ3ZcoAFYBD_Ho1qLNLbf_OpzWO99zfLoBwkfRnfwrh9h8c12WQelCHWQ77v1TrC0X-LUnyWbA5N7btdJLOSfXbGaE144GOuwr9bia48qqvnj-CuGncd0qW30v6Oo/s354/anime4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 200.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star gray"></i>
+                            </div>
+                            <p class="rating-text">4/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkHZ2VKiMRUTtTzZ-qyLSiR5m9zAPabHvPdfbznDc44r7i2XfUzT3PNeFpPPg1Ig1UPt791WSyOcc9Ae6bdfPfGgSLPVrLknTiqhjlYXgqmPOT2vxp1nvC3GevUnpGQybrn-eAmTP-AKRZlMaLbzI7R62NvGB5hsUNzX-VxekbonU31fhQk-L-SS9-HtA/s1103/anime5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 300.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyH2vBk8zy1m5rcvIPypMZxnaOOnz1YZLePvY9gkDu18pwMzB1CzWTgElDkONvbSppk6XNqC41SWpMQiK41Zbh6tIzgZnAQFqjcnuCwx-fkQUXWTn-HED6GyL6X8yg5BKVlYSZxKMSU8wvVxKdt1izYf0Tpg4HIAVCFnU9yl4gwUI7GOCWNGW9fzOY3Ys/s736/anime6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Figure Hutao</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 650.000</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_gaxVIY0IacnbjToAfSNzWlEjzY3oTfU5hAZERYhjaaFmjifod-sf4G3pIrM-HLEuCauhXCjYRNZFtq3H-FAq3jcW9a9jmCzIqutnFvuC-FKnIEpmoMlM9aAMlfo_NOto6u8yIe7dqfM18jff-LuXgFfsXcMmuIU9G8qAFhzRikbUfzVecqgqaVqL3ro/s898/anime7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Figure Danganronpa</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 399.999</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star gray"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgkl_9fQZUK3_c6jK9Y5uPnf2eVKPV_-Ss-OfdKLBf4nlugHuZaPK3XaNr9KmsBHd3Y12Ro4Yp31Cv2I2yRVC5rPvDOsrDXf8ACCXYLJFpgEyCyy7yMxUhQ99AGbwue33PkCKk1FT29BJhgfcY5sownBmqub7zjKChObArDoZBnfNdrOjGgUVuVqGbj1A/s736/anime8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 549.999</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-name="p-1">
+                    <div class="imgBx">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgne8MNALEZLmZjsTeBGVq3Hg8lZL63pA3xi6wrD4W-skf35-OwONarHIHQmk6XcryMYwhyjrZgSuVBb29i-dW1ab9YBYtbAMUDu1C_7JF4ukToqTgSTPa0quFmtpa3LTLwRnIYxpJeIUBY3jfumvwQq56LHKzYUwBObXg6AJq4OpB9Mu6gfTOoK3tsi-0/s800/anime9.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Figure Paimon</h3>
+                            <ul class="action">
+                                <li>
+                                    <a href=""><i class="fas fas fa-heart"></i></a>
+                                    <span>Beli Sekarang</span>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fas fa-shopping-cart"></i></a>
+                                    <span>Tambah ke Keranjang</span>
+                                </li>
+                                <li>
+                                    <a href="" class="item-detail-button"><i class="fas fa-search"></i></a>
+                                    <span>Lihat Detail</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-rating">
+                            <h2>Harga &nbsp; <span>Rp. 999.999</span></h2>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="rating-text">5/5</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2><span>Kontak </span>Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi kami atau mengunjungi kami dengan alamat di bawah ini.</p>
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9155.01855915208!2d115.7435990317042!3d-0.2774455383610352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df78bcc1a4f9e31%3A0x8fa989680c7df4ca!2sDuma%20Jaya%20Second%20Import!5e0!3m2!1sid!2sid!4v1689172500826!5m2!1sid!2sid"
+                width="50%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe class="map">
+            <form action="tes.php" method="get">
+
+                <div class="input-box">
+                    <input type="text" required>
+                    <label for="text" name="name">Nama</label>
+                    <i data-feather="user" class="extra"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" required>
+                    <label for="email" name="email">Email</label>
+                    <i data-feather="mail" class="extra"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" required>
+                    <label for="number" name="phone">No Handphone</label>
+                    <i data-feather="phone" class="extra"></i>
+                </div>
+
+                <button>Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>Tentang Kami</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis culpa minus perspiciatis.</p>
+                <ul class="sci">
+                    <li><a href="">
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                        </a></li>
+                    <li><a href="">
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                        </a></li>
+                    <li><a href="">
+                            <span><i class="fa-brands fa-youtube"></i></span>
+                        </a></li>
+                    <li><a href="">
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                        </a></li>
+                </ul>
+            </div>
+
+            <div class="sec quicklinks">
+                <h2>Bantuan</h2>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="sec quicklinks">
+                <h2>Toko</h2>
+                <ul>
+                    <li><a href="">Toko Aqua</a></li>
+                    <li><a href="">Toko Megumin</a></li>
+                    <li><a href="">Toko Kazuma</a></li>
+                    <li><a href="">Toko Darkness</a></li>
+                </ul>
+            </div>
+
+            <div class="sec contactus">
+                <h2>Kontak kami</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fas fa-phone"></i></span>
+                        <p><a href="tel +62 823-5242-1640">+62 823-5242-1640</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fas far fa-envelope"></i></i></span>
+                        <p><a href="mailto:kokolie530@gmail.com">kokolie530@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="">Coli</a> | &copy;CopyRight All Reserved 2024</p>
+        </div>
+    </footer>
+
+    <!-- modal box item detail start -->
+    <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#" class="close-icon"><i data-feather="x"></i></a>
+            <div class="modal-content">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaRsxY5njm1ThtVO2dNpskopoW_Co7blj3mJMVxUyK_FcoihCKYGwO-G7yxtPCCnnpXoL7mCjUvMFMqFQIfFPgS1_5udC7rR1tMW2Haa0jL_MJkdYErSJv6d761gl3skTo5JOBVgbMiIiIukewYTjARMBUOq9xX99xfRuTPVtOR_1CS6-0EyWyBw3MgLA/s843/anime1.jpg" alt="Product 1">
+                <div class="product-content">
+                    <h3>Produk 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque laudantium debitis accusamus eos quas, totam autem, harum quo quisquam dicta id sunt in eveniet?</p>
+                    <div class="price-rating">
+                        <h2>Harga &nbsp; <span>Rp. 549.999</span></h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray"></i>
+                        </div>
+                        <p class="rating-text">5/5</p>
+                    </div>
+                    <a href="#"><i data-feather="shopping-cart"></i><span>Beli Sekarang</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal box item detail end -->
+
+    <form action="" method="post"></form>
+
+    <script src="web.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
